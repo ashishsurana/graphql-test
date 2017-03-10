@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+		"lib": ["es6", "dom"],
+    "declaration": false,
+    "outDir": "dist",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+		"types": [
+      "typed-graphql"
+		]
+  },
+  "files": [
+    "src/main.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
